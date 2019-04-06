@@ -1,0 +1,154 @@
+body {
+    text-align: center;
+    font-family: 'Raleway';
+    color: black;
+    font-weight: 100;
+    background-color: rgba(255, 226, 222, 0.75);
+    color: rgba(232, 111, 122, 1);
+}
+
+a {
+    color: rgba(232, 111, 122, 1);
+    text-decoration: underline;
+}
+
+section a:visited {
+    text-decoration: underline;
+    color: rgba(244, 193, 199, 1);
+}
+
+section a:hover {
+    cursor: pointer;
+    color: rgba(232, 111, 122, 1);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+i {
+    font-size: 1.5em;
+    margin: .5em;
+    border: solid 2px rgba(232, 160, 171, 1);
+    border-radius: 50px;
+    padding: .25em;
+}
+
+.content {
+    border: solid 2px rgba(232, 160, 171, 1);
+    padding: .5em;
+    width: 100%;
+}
+
+.selected {
+    margin-bottom: 3em;
+}
+
+.selected p {
+    font-size: 1.15em;
+    font-weight: 100;
+}
+
+.selectedItem {
+    margin-bottom: 1.25em;
+    border: solid 2px rgba(232, 160, 171, 1);
+    padding: .5em;
+}
+
+.listedClips {
+    border: solid 2px rgba(232, 160, 171, 1);
+    padding: .5em;
+}
+
+img {
+    height: 65%;
+    width: 65%;
+    margin-bottom: 1em;
+}
+
+div.listedClips {
+    text-align: left;
+}
+
+div.listedClips p {
+    margin-bottom: 1.5em;
+}
+
+#work,
+#hireMe {
+    margin-bottom: 3em;
+}
+
+/*begin tablet styling*/
+@media (min-width: 600px) {
+
+    .selected .selectedItem {
+        margin-bottom: 2em;
+    }
+
+    #about,
+    #work,
+    #hireMe,
+    .selected {
+        margin-bottom: 5em;
+    }
+
+    .selected {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .selectedItem {
+        flex-basis: 28%;
+        width: 25%;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    p {
+        font-size: 1.05em;
+    }
+
+    #about,
+    #work,
+    #hireMe,
+    .heading p {
+        font-size: 1.10em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .siteContent {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    #home,
+    #about,
+    #work,
+    #hireMe {
+        font-size: 1.25em;
+    }
+
+    h2 {
+        padding-bottom: 1.5em;
+        font-size: 1.5em;
+    }
+}
