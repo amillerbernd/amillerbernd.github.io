@@ -12,7 +12,7 @@ a {
     text-decoration: underline;
 }
 
-section a:visited {
+section a:visited, section a:active {
     text-decoration: underline;
     color: rgba(244, 193, 199, 1);
 }
