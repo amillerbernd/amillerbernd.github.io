@@ -12,9 +12,9 @@ a {
     text-decoration: underline;
 }
 
-section a:visited, section a:active {
+a:visited, a:active {
     text-decoration: underline;
-    color: rgba(244, 193, 199, 1);
+    color: rgba(232, 111, 122, 1);
 }
 
 section a:hover {
@@ -32,6 +32,9 @@ h2 {
     padding-bottom: 1em;
     font-weight: 900;
 }
+p {
+    font-size: 1.1em;
+}
 
 i {
     font-size: 1.5em;
@@ -40,7 +43,9 @@ i {
     border-radius: 50px;
     padding: .25em;
 }
-
+.siteContent {
+    margin: 0 1em;
+}
 .content {
     border: solid 2px rgba(232, 160, 171, 1);
     padding: .5em;
@@ -81,9 +86,11 @@ div.listedClips p {
     margin-bottom: 1.5em;
 }
 
+#about,
 #work,
-#hireMe {
-    margin-bottom: 3em;
+#hireMe,
+.listedClips {
+    margin-bottom: 2em;
 }
 
 /*begin tablet styling*/
