@@ -3,8 +3,6 @@ body {
     font-family: 'Raleway';
     color: black;
     font-weight: 100;
-    padding-left: 1em;
-    padding-right: 1em;
     background-color: rgba(255, 226, 222, 0.75);
     color: rgba(232, 111, 122, 1);
 }
@@ -47,6 +45,8 @@ i {
 }
 .siteContent {
     margin: 1em 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .content {
     border: solid 2px rgba(232, 160, 171, 1);
