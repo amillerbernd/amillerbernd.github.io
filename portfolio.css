@@ -44,7 +44,7 @@ i {
     padding: .25em;
 }
 .siteContent {
-    margin: 0 1em;
+    margin: 1em 0;
 }
 .content {
     border: solid 2px rgba(232, 160, 171, 1);
