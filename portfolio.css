@@ -48,6 +48,9 @@ i {
     padding-left: 1em;
     padding-right: 1em;
 }
+.heading {
+    margin-bottom: 3em;
+}
 .content {
     border: solid 2px rgba(232, 160, 171, 1);
     padding: .5em;
